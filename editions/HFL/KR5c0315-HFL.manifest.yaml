@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5c0315/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0315/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 蓬萊山西竈還丹歌
+  date: '2015-08-29 00:55:56.772199'
+  source:
+    repository: kanripo
+    path: KR5c0315
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0315_000-HFL.yaml, hash: 'sha256:b089ed2fbe9ea52c4a518dd0e35c4d17be15fedb1c0034fcf6af35ae83756183'}
+  - {seq: 1, filename: KR5c0315_001-HFL.yaml, hash: 'sha256:fad8a15cbe80afa587f112cf308ae7d5835daa555325642e41cf680794be0c77'}
+  - {seq: 2, filename: KR5c0315_002-HFL.yaml, hash: 'sha256:dea7b9e5e125c62bda9924aaee9b16309817a18295680d5dcc92dc37ee61dc65'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5c0315_001-HFL.markers.yaml, hash: 'sha256:fb8629ffdce636324c98d405c41c0e47d9ada7569e2668bb9903614444b47ecd'}
+  - {seq: 2, role: markers, filename: assets/KR5c0315_002-HFL.markers.yaml, hash: 'sha256:5372ab3078e8cf9767699952aa3347cc41250596a7cbda4bc5608f1ac04df5e8'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5c0315_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 6971
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0315_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 4747
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:c50bb059f6cadaace280819e196a33539d3740c0307300c9a57d2bff9dd5ea10

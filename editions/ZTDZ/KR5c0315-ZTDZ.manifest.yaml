@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR5c0315/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0315/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 蓬萊山西竈還丹歌
+  date: '2015-08-29 00:55:56.772199'
+  source:
+    repository: kanripo
+    path: KR5c0315
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0315_000-ZTDZ.yaml, hash: 'sha256:8a974e64c15536aa4a0b9badec5dc855b9f2e2b412702254ced4e7624e3b53a2'}
+  - {seq: 1, filename: KR5c0315_001-ZTDZ.yaml, hash: 'sha256:d88a25451ddb58c8a737ead32d798e0640920f040d6bbbb6de7efb893ee7cd94'}
+  - {seq: 2, filename: KR5c0315_002-ZTDZ.yaml, hash: 'sha256:8cab7bbbc61b54d621ecf6659f346daeddc4883f82cf6d97c7db4dcc5fde32ef'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0315_000-ZTDZ.markers.yaml, hash: 'sha256:a682d24208180b8ea4772fb817fafbb6bc637c948f4b20d099f6e321b02fbd5e'}
+  - {seq: 1, role: markers, filename: assets/KR5c0315_001-ZTDZ.markers.yaml, hash: 'sha256:1c9990e51f60868abf18e102626e6a601094416cb56143d61f61ca52d064236e'}
+  - {seq: 2, role: markers, filename: assets/KR5c0315_002-ZTDZ.markers.yaml, hash: 'sha256:015cacc38aa516cb6d38ffee6caa3b0e904a749e45bf3f8f5da8081e6506da74'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: ''
+    span:
+    - body
+    - 0
+    - 0
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5c0315_SJB_001-190185a
+    span:
+    - body
+    - 0
+    - 6971
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0315_SJB_002-190196b
+    span:
+    - body
+    - 0
+    - 4747
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:1cde3fa25513124605ee9df7e8274460a336e6bad1fbd8af575804748e86a43c
